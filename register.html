@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src="js/validate.js"></script>
+</head>
+<body>
+	<img src="img/1.jpg" width="7%"><h1 align="center">Music</h1>
+	<center>
+		<div>
+		<form name="register-form" action="index.html" method="post" onsubmit="return validate()">
+			<h2>Register</h2>
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name="txtFirstName" id="txtFirstName" placeholder="Enter First name" maxlength="20" ng-model="fname"></td>
+					<td><label id="l1"></label></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="txtLastName" id="txtLastName" placeholder="Enter Last name" maxlength="20" ng-model="lname"></td>
+					<td><label id="l2"></label></td>
+				</tr>
+				<tr>
+					<td>Date of birth:</td>
+					<td><input type="Date" name="dob" ng-model="dob"></td>
+				</tr>
+				<tr>
+					<td>Email ID:</td>
+					<td><input type="text" name="Email" id="Email" placeholder="Enter Email ID" maxlength="100" ng-model="mail"></td>
+					<td><label id="l3"></label></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="Password" id="pass"></td>
+					<td><label id="l4"></label></td>
+				</tr>
+				<tr>
+					<td>Re-type Password:</td>
+					<td><input type="password" name="Password1" id="pass1"></td>
+					<td><label id="l5"></label></td>
+				</tr>
+			</table>
+				<br><br>	
+				<input type="submit" name="Submit">
+		</form>
+		</div>
+	</center>
+</body>
+</html>

@@ -1,0 +1,88 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.h1{
+	float: left;
+	display: inline-block;
+	margin-top: 0;
+	padding-top: 0.9%;
+	font-size: 300%;
+}
+.hh1{
+	text-align: right; 
+	font-size: 150%; 
+	padding-right: 2%;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+  color: #ff99e6;
+}
+#d1{
+	background-color : rgba(0,0,0,0.5);
+	color: white;
+	height: 13%;
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#d2{
+	background-color : #c2c2a3;
+    height: 90%;
+}
+
+#h2{
+	margin-top: 0;
+	font-size: 400%;
+	padding-top: 13%;
+	vertical-align: middle;
+	text-align: center;
+}
+input{
+	width: 25%;
+	padding: 12px 20px;
+	margin-left: 38%;
+	background-color : #f0f0f5; 
+	font-size: 130%;
+}
+img{
+	display: inline;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+#d3{
+	vertical-align: middle;
+	text-align: center;
+	height: 170%;
+	font-size: 120%;
+}
+
+.button1:hover {background-color: #d6f5d6}
+
+.button1:active {
+  background-color: #d6f5d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.img1{
+	margin-left: 2%;
+	float: left;
+}
+#d4{
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	height: 50%;
+	font-size: 120%;
+	background: #000000;
+}
